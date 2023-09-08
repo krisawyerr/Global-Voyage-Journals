@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.section {
+    flex-basis: 50%;
+    height: 50vh;
+    transition: transform 0.2s ease;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.section:hover {
+    transform: scale(1.05);
+}
+
+/* Customize the background and content of each section */
+#section1 {
+    background-image: url('../visuals/hu-chen-60XLoOgwkfA-unsplash.jpg'); /* Replace 'path_to_image1.jpg' with your image file path */
+    background-size: cover;
+    background-position: center;
+}
+
+#section2 {
+    background-image: url('../visuals/pexels-atypeek-dgn-13009245.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#section3 {
+    background-image: url('../visuals/pexels-pixabay-262786.jpg'); /* Replace 'path_to_image3.jpg' with your image file path */
+    background-size: cover;
+    background-position: center;
+}
+
+#section4 {
+    background-image: url('../visuals/pexels-tope-a-asokere-5789323.jpg'); /* Replace 'path_to_image4.jpg' with your image file path */
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Add content and style for each section */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    font-size: 48px;
+    text-shadow: 4px 4px 8px rgb(0, 0, 0);
+}

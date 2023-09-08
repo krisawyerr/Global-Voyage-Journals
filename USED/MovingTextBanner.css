@@ -1,0 +1,24 @@
+/* styles.css */
+.moving-text-banner-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 60px; /* Adjust the height as needed */
+    background-color: #333;
+    color: #fff;
+}
+
+.moving-text {
+    position: absolute;
+    white-space: nowrap;
+    animation: moveText 5s linear infinite;
+}
+
+@keyframes moveText {
+    0% {
+        right: 100%;
+    }
+    100% {
+        right: 00%; /* Adjust the value for the desired width of the animation */
+    }
+}

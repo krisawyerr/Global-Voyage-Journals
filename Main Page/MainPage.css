@@ -1,0 +1,270 @@
+/* Reset styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Navigation banner styles */
+.navigation-banner {
+    background-color: rgb(0, 0, 0); /* Semi-transparent black background */
+    color: #fff; /* Text color */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+.navigation-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.navigation-title {
+    font-size: 24px;
+}
+.navigation-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navigation-links li {
+    margin-right: 20px;
+}
+.navigation-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+.navigation-links a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+/* Main PagePhoto Container styles */
+.Mainpage-photo-container {
+    position: relative;
+}
+.Mainpage-photo-container img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Changing fonts animation styles */
+.Changing-font-container {
+    font-size: 24px;
+    animation: changeFont 2s linear infinite;
+}
+@keyframes changeFont {
+    0% {
+        font-family: 'Courier New', Courier, monospace;
+    }
+    8% {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    17% {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    25% {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    33% {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    42% {
+        font-family: 'Times New Roman', Times, serif;
+    }
+    50% {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    58% {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    67% {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    75% {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    83% {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    100% {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+   
+}
+
+
+/* Moving Sideways Right styles.css */
+.moving-text-right-banner-container {
+    margin-top: -4px;
+    margin-bottom: -15px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 60px; /* Adjust the height as needed */
+    background-color: #8a8a8a;
+    color: #fff;
+}
+.moving-text-right {
+    position: absolute;
+    white-space: nowrap;
+    animation: moveText-right 3600s linear infinite;
+    font-size: 3rem;
+}
+@keyframes moveText-right {
+    0% {
+        right: 0%;
+    }
+    100% {
+        right: -36000%; /* Adjust the value for the desired width of the animation */
+    }
+}
+
+
+/* Moving Sideways Left styles.css */
+.moving-text-left-banner-container {
+    margin-top: -4px;
+    margin-bottom: -15px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 60px; /* Adjust the height as needed */
+    background-color: #8a8a8a;
+    color: #fff;
+}
+.moving-text-left {
+    position: absolute;
+    white-space: nowrap;
+    animation: moveText-left 3600s linear infinite;
+    font-size: 3rem;
+}
+@keyframes moveText-left {
+    0% {
+        left: 0%;
+    }
+    100% {
+        left: -36000%; /* Adjust the value for the desired width of the animation */
+    }
+}
+
+
+/* Origin Story styles */
+.origin-story-section {
+    text-align: center;
+    padding: 40px;
+}
+.origin-story-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.origin-story-content h1 {
+    font-size: 36px;
+}
+.origin-story-content p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Profiles styles */
+.profiles-section {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profiles-section-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.profiles-left {
+    flex: 1;
+    text-align: center;
+}
+.profiles-right {
+    flex: 2;
+    text-align: center;
+}
+.profiles-left1 {
+    flex: 2;
+    text-align: center;
+}
+.profiles-right1 {
+    flex: 1;
+    text-align: center;
+}
+.profiles img {
+    border: 5px solid #000;
+    border-radius: 75%;
+    max-width: 100%;
+}
+.profiles h2 {
+    font-size: 24px;
+}
+.profiles h3 {
+    font-size: 18px;
+}
+.profiles p {
+    font-size: 16px;
+}
+.profiles a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+.profiles-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: transform 0.2s; /* Add a transition for smooth animation */
+}
+.profiles-button:hover {
+    transform: scale(1.15); /* Increase the size by 5% on hover */
+}
+
+/* Back to top button styles */
+.Bact-To-Top-button-container {
+    text-align: right; /* Center the button horizontally */
+    margin: 20px; /* Adjust the distance from the content above */
+}
+.Bact-To-Top-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.Bact-To-Top-button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Footer banner styles */
+.footer-banner {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer-banner p {
+    margin: 0;
+    font-size: 16px;
+}

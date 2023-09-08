@@ -1,0 +1,45 @@
+/* styles.css */
+.font-container {
+    font-size: 24px;
+    animation: changeFont 2s linear infinite;
+}
+
+@keyframes changeFont {
+    0% {
+        font-family: 'Courier New', Courier, monospace;
+    }
+    8% {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    17% {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    25% {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    33% {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    42% {
+        font-family: 'Times New Roman', Times, serif;
+    }
+    50% {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    58% {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    67% {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    75% {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    83% {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    100% {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+   
+}

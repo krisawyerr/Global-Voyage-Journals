@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.section {
+    flex-basis: 50%;
+    height: 50vh;
+    transition: transform 0.2s ease;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.section:hover {
+    transform: scale(1.05);
+}
+
+/* Customize the background and content of each section */
+#section1 {
+    background-image: url('../visuals/anthony-rosset-5r5554u-mHo-unsplash.jpg'); /* Replace 'path_to_image1.jpg' with your image file path */
+    background-size: cover;
+    background-position: center;
+}
+
+#section2 {
+    background-image: url('../visuals/etienne-delorieux-e5sp18O40yA-unsplash.jpg'); /* Replace 'path_to_image2.jpg' with your image file path */
+    background-size: cover;
+    background-position: center;
+}
+
+#section3 {
+    background-image: url('../visuals/michael-baron-YQSXw2YVqyU-unsplash.jpg'); /* Replace 'path_to_image3.jpg' with your image file path */
+    background-size: cover;
+    background-position: center;
+}
+
+#section4 {
+    background-image: url('../visuals/caspar-rae-CVeouMnjWBQ-unsplash.jpg'); /* Replace 'path_to_image4.jpg' with your image file path */
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Add content and style for each section */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    font-size: 48px;
+    text-shadow: 4px 4px 8px rgb(0, 0, 0);
+}
